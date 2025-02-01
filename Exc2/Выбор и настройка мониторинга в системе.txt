@@ -1,0 +1,57 @@
+1. Мотивация
+    В текущей реализации системы мы узнаем о ее проблемах из жалоб недовольных пользователей.
+Это негативно сказывается на репутации компании и приводит к денежным потерям.
+    Исправить ситуацию поможет внедрение мониторинга. Он поможет самостоятельно и 
+на ранней стадии определять проблемы, узкие места в производительности и своевременно их устранять.
+    Все это приведет к повышению быстродействия системы, а также к повышению удовлетворенности пользователей.
+Плюс ко всему накопленные данные позволят через анализ приводить к бизнес-инсайтам и более принимать взвешенные 
+и обоснованные решения. 
+
+2. Выбор подхода к мониторингу
+    - для Онлайн-магазина — подход USE и RED
+    - для CRM — подход RED
+    - для MES — подход USE и RED
+
+3. Метрики
+    - для Онлайн-магазина
+        - Number of requests (RPS) for internet shop API
+        - Number of requests (RPS) per user for internet shop API
+        - CPU % for shop API
+        - Memory Utilisation for shop API
+        - Memory Utilisation for shop db instance
+        - Number of connections for shop db instance
+        - Response time (latency) for shop API
+        - Number of HTTP 200 for shop API
+        - Number of HTTP 500 for shop API
+        - Number of simultanious sessions for shop API
+        - Kb tranferred (received) for shop API
+        - Size of S3 storage
+    - для CRM
+        - Number of requests (RPS) for CRM API
+        - Number of requests (RPS) per user for CRM API
+        - Response time (latency) for CRM API
+        - Number of HTTP 200 for CRM API
+        - Number of HTTP 500 for CRM API
+        - Number of simultanious sessions for CRM API
+    - для MES
+        - Number of dead-letter-exchange letters in RabbitMQ
+        - Number of message in flight in RabbitMQ
+        - Number of requests (RPS) for MES API
+        - Number of requests (RPS) per user for MES API
+        - CPU % for MES API
+        - Memory Utilisation for MES API
+        - Memory Utilisation for MES db instance
+        - Response time (latency) for MES API
+        - Size of S3 storage
+        - Size of MES db instance
+        - Number of HTTP 200 for MES API
+        - Number of HTTP 500 for MES API
+        - Number of simultanious sessions for MES API
+        - Kb tranferred (received) for MES API
+        - Kb provided (sent) for MES API
+    
+    4. План действий
+        - команда разработки интегрирует агенты-экспортеры метрик в сервисы системы
+        - команда DevOps развертывает инстанс Prometheus c использованием Docker и настраивает на сбор метрик с агентов
+        - команда DevOps развертывает инстанс Grafana и настраивает на взаимодействие с Prometheus и отображение метрик
+        

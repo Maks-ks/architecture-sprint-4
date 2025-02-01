@@ -1,0 +1,100 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2840" dy="2753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="get orders data with 1 min interval" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="wMCuOSxiS8gmpJPBunnd-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="-970.0000000000001" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="-970" />
+            </Array>
+            <mxPoint x="645" y="-970.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="put orders data to cache" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="wMCuOSxiS8gmpJPBunnd-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="-950.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="-950" />
+            </Array>
+            <mxPoint x="505" y="-950.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-1" value="MES API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="155" y="-1050" width="105" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="wMCuOSxiS8gmpJPBunnd-1" vertex="1">
+          <mxGeometry x="48" y="140" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="wMCuOSxiS8gmpJPBunnd-1" vertex="1">
+          <mxGeometry x="48" y="330" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-2" value="Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="310" y="-1050" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="wMCuOSxiS8gmpJPBunnd-2" vertex="1">
+          <mxGeometry x="45" y="144" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="wMCuOSxiS8gmpJPBunnd-2" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-3" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="638" y="-1050" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="wMCuOSxiS8gmpJPBunnd-3" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="wMCuOSxiS8gmpJPBunnd-3" vertex="1">
+          <mxGeometry x="45" y="330" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="-906" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-9" value="get orders" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="-876.1" as="sourcePoint" />
+            <mxPoint x="190" y="-876.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-10" value="Async Worker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="450" y="-1050" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="wMCuOSxiS8gmpJPBunnd-10" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-13" value="get orders data" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="213" y="-898" as="sourcePoint" />
+            <mxPoint x="355" y="-898" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-14" value="return data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="-869" as="sourcePoint" />
+            <mxPoint x="213" y="-869" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="-720" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-19" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;change order status&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" parent="1" source="wMCuOSxiS8gmpJPBunnd-18" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="-690" as="sourcePoint" />
+            <mxPoint x="190" y="-690.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMCuOSxiS8gmpJPBunnd-22" value="update order status" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="wMCuOSxiS8gmpJPBunnd-21" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="213" y="-690" as="sourcePoint" />
+            <mxPoint x="680" y="-690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IXDVd0cZ4vUbat99f4GY-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1. Асинхронный воркер с интервалом в одну минуту, запрашивает данные в базе данных и обновляет кеш в Redis.&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px; font-weight: normal;&quot;&gt;2. Чтения списка заказов всегда осуществляется из кеша Redis.&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px; font-weight: normal;&quot;&gt;3. Запись изменения статуса заказа осуществляется напрямую в базу данных.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px; font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-450" width="780" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
